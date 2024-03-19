@@ -15,7 +15,7 @@ Consider the following in order to succeed this assignment:
 
 • while thinking, they are not eating nor sleeping; and of course, while sleeping, they are not eating nor thinking.
 
-• There are also chopsticks on the table. There is only one single chopstick per philosophers.
+• There are also chopsticks on the table. There is only one single chopstick for each philosopher.
 
 • Because serving and eating spaghetti with only one chopstick is very inconvenient, a philosopher takes their right and their left chopstick to eat, one in each hand.
 
