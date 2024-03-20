@@ -26,5 +26,5 @@ start sleeping. Once awake, they start thinking again. The simulation stops when
 • Philosophers don’t speak with each other.
 
 • Philosophers don’t know if another philosopher is about to die.
-
+..
 • No need to say that philosophers should avoid dying!
