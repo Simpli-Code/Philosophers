@@ -26,5 +26,35 @@ start sleeping. Once awake, they start thinking again. The simulation stops when
 • Philosophers don’t speak with each other.
 
 • Philosophers don’t know if another philosopher is about to die.
-..
+
 • No need to say that philosophers should avoid dying!
+
+# 🛠️ Usage
+
+Requirements:
+
+This program is written in C language for Linux distributions and Mac OS thus needs the clang compiler and some standard C libraries to run.
+
+Compiling the program
+
+```
+$ make
+```
+
+Execute the program
+
+```
+$ ./philo 
+```
+
+# 📑 Index
+
+@root
+
+📁 inc: contains the program's headers.
+
+📁 src: contains the source code of the program.
+
+Makefile - contains instructions for compiling the program and testing it.
+
+USEFUL RESOURCES:
