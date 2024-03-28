@@ -63,7 +63,7 @@ About the logs of the program:
 
 • Any state change of a philosopher must be formatted as follows:
 
-◦ timestamp_in_ms X has taken a fork
+◦ timestamp_in_ms X has taken a Chopstick
 
 ◦ timestamp_in_ms X is eating
 
@@ -90,10 +90,10 @@ The specific rules for the mandatory part are:
 • Each philosopher should be a thread.
 
 • There is one chopstick between each pair of philosophers. Therefore, if there are several
-philosophers, each philosopher has a Chopstick on their left side and a Chopstick on their right
+philosophers, each philosopher has one Chopstick on their left side and one Chopstick on their right
 side. If there is only one philosopher, there should be only one Chopstick on the table.
 
-• To prevent philosophers from duplicating Chopstick, you should protect the Chopstick state
+• To prevent philosophers from duplicating Chopsticks, you should protect the Chopsticks state
 with a mutex for each of them.
 
 # 🛠️ Usage
