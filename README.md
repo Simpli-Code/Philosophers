@@ -37,21 +37,16 @@ Once awake, they start thinking again. The simulation stops when a philosopher d
 
 • The program should take the following arguments:
 
-    Number_of_philosophers
-
-      Each Philo has one Chopstick
+    Number_of_philosophers (Each Philo has one Chopstick)
 
     Time_to_die (in milliseconds)
-      
       If a philosopher didn’t start eating time_to_die milliseconds since the beginning
       of their last meal or the beginning of the simulation, they die.
       
     Time_to_eat (in milliseconds)
-      
       The time it takes for a philosopher to eat. During that time, they will need to hold two Chopsticks.
       
     Time_to_sleep (in milliseconds)
-    
       The time a philosopher will spend sleeping.
       
     Number_of_times_each_philosopher_must_eat
