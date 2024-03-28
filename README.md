@@ -111,7 +111,7 @@ $ make
 Execute the program
 
 ```
-$ ./philo 
+$ ./philo 5 800 200 200 7
 ```
 
 # 📑 Index
