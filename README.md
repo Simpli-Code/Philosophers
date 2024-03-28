@@ -124,4 +124,3 @@ $ ./philo 5 800 200 200 7
 
 Makefile - contains instructions for compiling the program and testing it.
 
-USEFUL RESOURCES:
