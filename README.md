@@ -21,7 +21,9 @@ the following has to be considered to succeed this Assignment:
   a philosopher takes their right and their left chopstick to eat, one in each hand.
 
 • When a philosopher has finished eating, they put their chopsticks back on the table and
-start sleeping. Once awake, they start thinking again. The simulation stops when a philosopher dies of starvation.
+start sleeping.
+
+Once awake, they start thinking again. The simulation stops when a philosopher dies of starvation.
 
 • Every philosopher needs to eat and should never starve.
 
