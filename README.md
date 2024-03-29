@@ -2,7 +2,7 @@
 
 This project, is about learning the basics of threading a process and how to create threads and mutexes.
 
-the following has to be considered to succeed this Assignment:
+the following is the requirements for this project:
 
 • One or more philosophers sit at a round table.
 
