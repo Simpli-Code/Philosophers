@@ -6,7 +6,7 @@
 #    By: chruhin <chruhin@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/08/12 11:31:59 by chruhin           #+#    #+#              #
-#    Updated: 2024/05/26 07:46:17 by chruhin          ###   ########.fr        #
+#    Updated: 2024/05/26 07:54:06 by chruhin          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,6 @@ SRC_DIR			=		src
 OBJ_DIR			=		obj
 INC_DIR			=		inc
 
-# SRCS			=		$(wildcard $(SRC_DIR)/*.c)
 DIRS			=		utils main
 SRCS			=		$(foreach dir,$(DIRS),$(filter %.c,$(shell find $(SRC_DIR)/$(dir) -type f)))
 OBJS			=		$(patsubst $(SRC_DIR)/%.c, $(OBJ_DIR)/%.o, $(SRCS))
@@ -33,8 +32,8 @@ $(OBJ_DIR):
 						@mkdir -p $(OBJ_DIR)
 
 $(OBJ_DIR)/%.o:			$(SRC_DIR)/%.c
-						@mkdir -p $(OBJ_DIR)
-						@$(CC) $(FLAGS) $(INCS) -c $< -o $@
+						@mkdir -p $(dir $@)
+						@$(CC) $(CFLAGS) $(INCS) -c $< -o $@
 
 $(NAME):				$(OBJS)
 						@$(CC) $(FLAGS) $(OBJS) -o $(NAME)
